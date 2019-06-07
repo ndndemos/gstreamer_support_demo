@@ -21,7 +21,7 @@ To Run:
 Please enter rtsp url
 - Enter any valid rtsp url with H.264 encoding and ENTER   
 
--> Keep waiting for minimum 3-4 mins, each file is configured for 90 secs  
+-> Keep waiting for minimum 1-2 mins, each file is configured for 30 secs  
 Files generated in path: /mnt/av, Examples as below  
 /mnt/av/testvideo-1__1887930741.mp4 -> Playing on Chrome  
 /mnt/av/testvideo-2__1358928742.mp4 -> Not Playing on Chrome  
