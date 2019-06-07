@@ -1010,7 +1010,7 @@ static void start_recording_video(std::string file_path, GstElement *pipe1) {
     tmp = g_strdup_printf("filesink-%s", "recorder");
     splitmuxsink = gst_element_factory_make("splitmuxsink", tmp);
     g_object_set(splitmuxsink, "muxer", mp4mux, NULL);
-    g_object_set(splitmuxsink, "max-size-time", (90 * GST_SECOND), NULL);
+    g_object_set(splitmuxsink, "max-size-time", (30 * GST_SECOND), NULL);
     g_object_set(splitmuxsink, "use-robust-muxing", TRUE, NULL);
     g_signal_connect(splitmuxsink, "format-location-full",
                      G_CALLBACK(splitmuxsink_on_format_location_full), NULL);
